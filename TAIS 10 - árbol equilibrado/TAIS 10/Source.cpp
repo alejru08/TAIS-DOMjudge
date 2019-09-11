@@ -1,8 +1,3 @@
-// Alejandro Ruiz Martin
-
-// Comentario general sobre la solución,
-// explicando cómo se resuelve el problema
-
 #include <iostream>
 #include <fstream>
 #include "bintree_eda.h"
@@ -27,7 +22,8 @@ bool equilibrado(bintree<char> a, int &max)
 
 		//si los hijos están equilibrados y la diferencia de alturas está entre [0, 1] devuelve true
 		return aLeft && aRight && ((altIz - altDr <= 1) && (altIz - altDr >= -1));
-	}
+	}
+
 }
 
 bool resuelveCaso() {
@@ -43,9 +39,6 @@ bool resuelveCaso() {
 	{
 		cout << "NO\n";
 	}
-	
-
-	// escribir sol
 
 	return true;
 }
