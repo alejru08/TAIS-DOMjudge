@@ -1,5 +1,3 @@
-// Alejandro Ruiz Martin
-
 #include <iostream>
 #include <fstream>
 
