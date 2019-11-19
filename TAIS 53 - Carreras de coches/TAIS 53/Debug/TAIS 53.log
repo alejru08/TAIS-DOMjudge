@@ -1,4 +1,4 @@
-﻿Compilación iniciada a las 19/11/2019 9:04:45.
+﻿Compilación iniciada a las 19/11/2019 10:50:32.
      1>Proyecto "C:\Users\pulba\Desktop\uni\TAIS\juez\TAIS 53 - Carreras de coches\TAIS 53\TAIS 53.vcxproj" en el nodo 2 (Build destinos).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
@@ -10,4 +10,4 @@
 
 Compilación correcta.
 
-Tiempo transcurrido 00:00:01.60
+Tiempo transcurrido 00:00:01.63

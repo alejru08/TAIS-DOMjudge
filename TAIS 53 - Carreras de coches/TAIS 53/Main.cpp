@@ -14,11 +14,12 @@ int sol(vector<int> M, vector<int> m, const int &n, const int &v)
 	M.pop_back();
 	m.pop_back();
 	//sacamos pila con mas carga e incrementamos su contador
-	//sacamos pila con menos carga e incrementamos (no incrementamos para poder probar el ultimo caso posible)
+	//sacamos pila con menos carga e incrementamos 
 	contM++;
+	contm++;
 
-	//Mientras que haya pilas 
-	while (contM + contm < n)
+	//Mientras que haya pilas (n+1 para comprobar todos los casos)
+	while (contM + contm < n + 1)
 	{
 		//Si la pila con mas carga + pila con menos carga es mayor o igual al minimo voltaje
 		if (mayor + menor >= v)
